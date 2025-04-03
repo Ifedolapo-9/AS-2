@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p><center><h1>About Me Section</h1></center></p>
+    <p><h2>Here's a picture of me by Awba Dam, the pose is simply showing me embracing all that God has for me</h2></p>   
+    <section>
+        <picture>
+            <!-- Large screens (laptops/desktops) -->
+            <source srcset="../assests/about_img.jpg" media="(min-width: 1024px)">
+            
+            <!-- Medium screens (tablets) -->
+            <source srcset="../assests/about_img.jpg" media="(min-width: 768px)">
+            
+            <!-- Small screens (mobile phones) -->
+            <source srcset="../assests/about_img.jpg" media="(max-width: 767px)">
+            
+            <!-- Default image (fallback) -->
+            <img src="../assests/about_img.jpg" alt="The pose is simply showing me embracing all that God has for me">
+        </picture>
+            </section>
+
+    <p><h2>Here's an audio message about who I am and what I do</h2></p>   
+
+    <section>
+        <audio controls autoplay loop>
+            <source src="../assests/about_audio.oga" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <p><h2>Here's an video about who I am and what I do</h2></p>   
+
+    <section>
+        <video controls width="700">
+            <source src="../assests/about_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <p><a href="../table.html"> Back to first page</a></p>
+</body>
+</html>
